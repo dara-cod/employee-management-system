@@ -1,4 +1,4 @@
-package com.lekwacious.employee_app;
+package com.andre177.employee_app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

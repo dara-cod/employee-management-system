@@ -1,5 +1,5 @@
-package com.lekwacious.employee_app.data.payloads.request;
-import com.lekwacious.employee_app.data.models.Department;
+package com.andre177.employee_app.data.payloads.request;
+import com.andre177.employee_app.data.models.Department;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.validation.constraints.Email;

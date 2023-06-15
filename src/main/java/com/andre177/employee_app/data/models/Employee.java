@@ -1,4 +1,4 @@
-package com.lekwacious.employee_app.data.models;
+package com.andre177.employee_app.data.models;
 
 import javax.persistence.*;
 import java.util.Objects;

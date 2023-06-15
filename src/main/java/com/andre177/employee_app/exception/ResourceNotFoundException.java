@@ -1,4 +1,4 @@
-package com.lekwacious.employee_app.exception;
+package com.andre177.employee_app.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

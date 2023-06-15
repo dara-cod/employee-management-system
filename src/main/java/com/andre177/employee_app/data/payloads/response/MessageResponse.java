@@ -1,4 +1,4 @@
-package com.lekwacious.employee_app.data.payloads.response;
+package com.andre177.employee_app.data.payloads.response;
 
 public class MessageResponse {
 

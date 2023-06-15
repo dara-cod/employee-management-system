@@ -1,10 +1,10 @@
-package com.lekwacious.employee_app.service;
+package com.andre177.employee_app.service;
 
-import com.lekwacious.employee_app.data.models.Employee;
-import com.lekwacious.employee_app.data.payloads.request.EmployeeRequest;
-import com.lekwacious.employee_app.data.payloads.response.MessageResponse;
-import com.lekwacious.employee_app.data.repository.EmployeeRepository;
-import com.lekwacious.employee_app.exception.ResourceNotFoundException;
+import com.andre177.employee_app.data.models.Employee;
+import com.andre177.employee_app.data.payloads.request.EmployeeRequest;
+import com.andre177.employee_app.data.payloads.response.MessageResponse;
+import com.andre177.employee_app.data.repository.EmployeeRepository;
+import com.andre177.employee_app.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

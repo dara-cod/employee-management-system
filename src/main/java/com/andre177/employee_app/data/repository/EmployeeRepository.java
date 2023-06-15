@@ -1,6 +1,6 @@
-package com.lekwacious.employee_app.data.repository;
+package com.andre177.employee_app.data.repository;
 
-import com.lekwacious.employee_app.data.models.Employee;
+import com.andre177.employee_app.data.models.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
