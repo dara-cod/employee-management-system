@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Maven build') {
             when {
-                "main"
+                branch "main"
             }
             steps {
                 sh "mvn -s settings.xml clean deploy"
