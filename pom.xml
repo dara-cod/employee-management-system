@@ -20,7 +20,6 @@
         <java.version>11</java.version>
     </properties>
     <dependencies>
-        <!--        newly added dependencies-->
         <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
