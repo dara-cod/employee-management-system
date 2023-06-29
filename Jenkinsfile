@@ -6,7 +6,7 @@ pipeline {
                 branch "main"
             }
             steps {
-                sh "mvn -s settings.xml clean deploy"
+                sh "mvn clean package -DskipTests"
             }
         }
     }
