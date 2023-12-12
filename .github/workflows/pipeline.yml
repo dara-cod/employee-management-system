@@ -1,0 +1,23 @@
+name: Esteira para aplicação employee-management-system
+on:
+  branches:
+    - main
+
+jobs:
+  maven:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+
+      - name: Run Maven Clean
+        run: 'mvn clean'
+
+      - name: Maven Package
+        run: |
+          mvn package -DskipTests
+          ls -l target/
