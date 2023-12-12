@@ -1,7 +1,8 @@
 name: Esteira para aplicação employee-management-system
 on:
-  branches:
-    - main
+  push:
+    branches:
+      - main
 
 jobs:
   maven:
