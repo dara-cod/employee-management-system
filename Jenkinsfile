@@ -1,15 +1,23 @@
 pipeline {
     agent any
     tools {
-        maven 'maven-3.6.3'
+        maven "maven-3.6.3"
     }
     stages {
-        stage('Maven build') {
+        stage ("Maven clean") {
             when {
                 branch "main"
             }
             steps {
-                sh "mvn clean package -DskipTests"
+                sh "mvn clean"
+            }
+        }
+        stage("Maven build") {
+            when {
+                branch "main"
+            }
+            steps {
+                sh "mvn package -DskipTests"
             }
         }
     }
