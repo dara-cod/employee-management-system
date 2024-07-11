@@ -18,7 +18,6 @@ pipeline {
             }
             steps {
                 sh "mvn package -DskipTests"
-                sh "mkdir pastateste"
             }
         }
     }
