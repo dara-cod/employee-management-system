@@ -1,6 +1,6 @@
 name: Esteira para aplicação employee-management-system
 on:
-  push:
+  push: 
     branches:
       - main
 
